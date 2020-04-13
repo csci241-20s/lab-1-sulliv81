@@ -1,90 +1,182 @@
-Script started on 2020-04-12 16:28:18-0700
-sulliv81@cf164-17:~/csci241$ gradle run --args="241"
+Script started on 2020-04-12 21:18:27-0700
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ ls
+build.gradle  settings.gradle  src  typescript	username.txt  writeup.txt
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git config user.name
+Bo Sullivan
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git config user.email
+sulliv81@wwu.edu
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git checkout
+M	typescript
+Your branch is up to date with 'origin/master'.
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
 
+    <rev-opts> are documented in git-rev-list(1)
 
-[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [70ms][m[35D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
-[1m> Task :run[m[0K
-Hello, world!
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
 
-[32;1mBUILD SUCCESSFUL[0;39m in 452ms
-2 actionable tasks: 1 executed, 1 up-to-date
-[0K
-[0K
-[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hsulliv81@cf164-17:~/csci241$ gradle run --args="241"[K[K[K[K[K241
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
 
+    <rev-opts> are documented in git-rev-list(1)
 
-[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [65ms][m[36D[1B[1m> :run[m[6D[1B[2A[0K
-[1m> Task :run[m
-Hello, world!
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
 
-[32;1mBUILD SUCCESSFUL[0;39m in 429ms
-2 actionable tasks: 1 executed, 1 up-to-date
-[0K
-[0K
-[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hsulliv81@cf164-17:~/csci241$ gradle run --args=241"241"it clone https://github.com/csci241-20s/lab-1-sulliv81 ~/csci241241repocsci241
-fatal: destination path '/home/sulliv81/csci241' already exists and is not an empty directory.
-sulliv81@cf164-17:~/csci241$ git clone https://github.com/csci241-20s/lab-1-sulliv81 ~/csci241
-fatal: destination path '/home/sulliv81/csci241' already exists and is not an empty directory.
-sulliv81@cf164-17:~/csci241$ git clone https://github.com/csci241-20s/lab-1-sulliv81 ~/csci241[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cradle run --args=241[K"241"[2P241it clone https://github.com/csci241-20s/lab-1-sulliv81 ~/csci241workingCo[K[Kcopy
-Cloning into '/home/sulliv81/csci241workingcopy'...
-remote: Enumerating objects: 16, done.[K
-remote: Counting objects:   6% (1/16)[Kremote: Counting objects:  12% (2/16)[Kremote: Counting objects:  18% (3/16)[Kremote: Counting objects:  25% (4/16)[Kremote: Counting objects:  31% (5/16)[Kremote: Counting objects:  37% (6/16)[Kremote: Counting objects:  43% (7/16)[Kremote: Counting objects:  50% (8/16)[Kremote: Counting objects:  56% (9/16)[Kremote: Counting objects:  62% (10/16)[Kremote: Counting objects:  68% (11/16)[Kremote: Counting objects:  75% (12/16)[Kremote: Counting objects:  81% (13/16)[Kremote: Counting objects:  87% (14/16)[Kremote: Counting objects:  93% (15/16)[Kremote: Counting objects: 100% (16/16)[Kremote: Counting objects: 100% (16/16), done.[K
-remote: Compressing objects:  10% (1/10)[Kremote: Compressing objects:  20% (2/10)[Kremote: Compressing objects:  30% (3/10)[Kremote: Compressing objects:  40% (4/10)[Kremote: Compressing objects:  50% (5/10)[Kremote: Compressing objects:  60% (6/10)[Kremote: Compressing objects:  70% (7/10)[Kremote: Compressing objects:  80% (8/10)[Kremote: Compressing objects:  90% (9/10)[Kremote: Compressing objects: 100% (10/10)[Kremote: Compressing objects: 100% (10/10), done.[K
-remote: Total 16 (delta 3), reused 2 (delta 0), pack-reused 0[K
-Unpacking objects:   6% (1/16)   Unpacking objects:  12% (2/16)   Unpacking objects:  18% (3/16)   Unpacking objects:  25% (4/16)   Unpacking objects:  31% (5/16)   Unpacking objects:  37% (6/16)   Unpacking objects:  43% (7/16)   Unpacking objects:  50% (8/16)   Unpacking objects:  56% (9/16)   Unpacking objects:  62% (10/16)   Unpacking objects:  68% (11/16)   Unpacking objects:  75% (12/16)   Unpacking objects:  81% (13/16)   Unpacking objects:  87% (14/16)   Unpacking objects:  93% (15/16)   Unpacking objects: 100% (16/16)   Unpacking objects: 100% (16/16), done.
-sulliv81@cf164-17:~/csci241$ git clone https://github.com/csci241-20s/lab-1-sulliv81 ~/csci241workingcopy[1P/csci241workingcopy
-fatal: could not create work tree dir '/csci241workingcopy': Permission denied
-sulliv81@cf164-17:~/csci241$ git clone https://github.com/csci241-20s/lab-1-sulliv81 /csci241workingcopyh/csci241workingcopyo/csci241workingcopym/csci241workingcopye/csci241workingcopy
-Cloning into 'home/csci241workingcopy'...
-remote: Enumerating objects: 16, done.[K
-remote: Counting objects:   6% (1/16)[Kremote: Counting objects:  12% (2/16)[Kremote: Counting objects:  18% (3/16)[Kremote: Counting objects:  25% (4/16)[Kremote: Counting objects:  31% (5/16)[Kremote: Counting objects:  37% (6/16)[Kremote: Counting objects:  43% (7/16)[Kremote: Counting objects:  50% (8/16)[Kremote: Counting objects:  56% (9/16)[Kremote: Counting objects:  62% (10/16)[Kremote: Counting objects:  68% (11/16)[Kremote: Counting objects:  75% (12/16)[Kremote: Counting objects:  81% (13/16)[Kremote: Counting objects:  87% (14/16)[Kremote: Counting objects:  93% (15/16)[Kremote: Counting objects: 100% (16/16)[Kremote: Counting objects: 100% (16/16), done.[K
-remote: Compressing objects:  10% (1/10)[Kremote: Compressing objects:  20% (2/10)[Kremote: Compressing objects:  30% (3/10)[Kremote: Compressing objects:  40% (4/10)[Kremote: Compressing objects:  50% (5/10)[Kremote: Compressing objects:  60% (6/10)[Kremote: Compressing objects:  70% (7/10)[Kremote: Compressing objects:  80% (8/10)[Kremote: Compressing objects:  90% (9/10)[Kremote: Compressing objects: 100% (10/10)[Kremote: Compressing objects: 100% (10/10), done.[K
-remote: Total 16 (delta 3), reused 2 (delta 0), pack-reused 0[K
-Unpacking objects:   6% (1/16)   Unpacking objects:  12% (2/16)   Unpacking objects:  18% (3/16)   Unpacking objects:  25% (4/16)   Unpacking objects:  31% (5/16)   Unpacking objects:  37% (6/16)   Unpacking objects:  43% (7/16)   Unpacking objects:  50% (8/16)   Unpacking objects:  56% (9/16)   Unpacking objects:  62% (10/16)   Unpacking objects:  68% (11/16)   Unpacking objects:  75% (12/16)   Unpacking objects:  81% (13/16)   Unpacking objects:  87% (14/16)   Unpacking objects:  93% (15/16)   Unpacking objects: 100% (16/16)   Unpacking objects: 100% (16/16), done.
-sulliv81@cf164-17:~/csci241$ git clone https://github.com/csci241-20s/lab-1-sulliv81 home/csci241workingcopyucsci241workingcopyscsci241workingcopyecsci241workingcopyrcsci241workingcopyscsci241workingcopy.csci241workingcopy[1Pcsci241workingcopy/csci241workingcopyscsci241workingcopyocsci241workingcopydcsci241workingcopyocsci241workingcopy_csci241workingcopy/csci241workingcopy [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-Cloning into 'home/users/sodo_/csci241workingcopy'...
-remote: Enumerating objects: 16, done.[K
-remote: Counting objects:   6% (1/16)[Kremote: Counting objects:  12% (2/16)[Kremote: Counting objects:  18% (3/16)[Kremote: Counting objects:  25% (4/16)[Kremote: Counting objects:  31% (5/16)[Kremote: Counting objects:  37% (6/16)[Kremote: Counting objects:  43% (7/16)[Kremote: Counting objects:  50% (8/16)[Kremote: Counting objects:  56% (9/16)[Kremote: Counting objects:  62% (10/16)[Kremote: Counting objects:  68% (11/16)[Kremote: Counting objects:  75% (12/16)[Kremote: Counting objects:  81% (13/16)[Kremote: Counting objects:  87% (14/16)[Kremote: Counting objects:  93% (15/16)[Kremote: Counting objects: 100% (16/16)[Kremote: Counting objects: 100% (16/16), done.[K
-remote: Compressing objects:  10% (1/10)[Kremote: Compressing objects:  20% (2/10)[Kremote: Compressing objects:  30% (3/10)[Kremote: Compressing objects:  40% (4/10)[Kremote: Compressing objects:  50% (5/10)[Kremote: Compressing objects:  60% (6/10)[Kremote: Compressing objects:  70% (7/10)[Kremote: Compressing objects:  80% (8/10)[Kremote: Compressing objects:  90% (9/10)[Kremote: Compressing objects: 100% (10/10)[Kremote: Compressing objects: 100% (10/10), done.[K
-remote: Total 16 (delta 3), reused 2 (delta 0), pack-reused 0[K
-Unpacking objects:   6% (1/16)   Unpacking objects:  12% (2/16)   Unpacking objects:  18% (3/16)   Unpacking objects:  25% (4/16)   Unpacking objects:  31% (5/16)   Unpacking objects:  37% (6/16)   Unpacking objects:  43% (7/16)   Unpacking objects:  50% (8/16)   Unpacking objects:  56% (9/16)   Unpacking objects:  62% (10/16)   Unpacking objects:  68% (11/16)   Unpacking objects:  75% (12/16)   Unpacking objects:  81% (13/16)   Unpacking objects:  87% (14/16)   Unpacking objects:  93% (15/16)   Unpacking objects: 100% (16/16)   Unpacking objects: 100% (16/16), done.
-sulliv81@cf164-17:~/csci241$ git clone https://github.com/csci241-20s/lab-1-sulliv81 home/users/sodo_/csci241workingcopy [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/users/sodo_/csci241workingcopy
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/users/sodo_/csci241workingcopy[1P/users/sodo_/csci241workingcopy[1P/users/sodo_/csci241workingcopy~/users/sodo_/csci241workingcopy
-Cloning into '/home/sulliv81/users/sodo_/csci241workingcopy'...
-remote: Enumerating objects: 16, done.[K
-remote: Counting objects:   6% (1/16)[Kremote: Counting objects:  12% (2/16)[Kremote: Counting objects:  18% (3/16)[Kremote: Counting objects:  25% (4/16)[Kremote: Counting objects:  31% (5/16)[Kremote: Counting objects:  37% (6/16)[Kremote: Counting objects:  43% (7/16)[Kremote: Counting objects:  50% (8/16)[Kremote: Counting objects:  56% (9/16)[Kremote: Counting objects:  62% (10/16)[Kremote: Counting objects:  68% (11/16)[Kremote: Counting objects:  75% (12/16)[Kremote: Counting objects:  81% (13/16)[Kremote: Counting objects:  87% (14/16)[Kremote: Counting objects:  93% (15/16)[Kremote: Counting objects: 100% (16/16)[Kremote: Counting objects: 100% (16/16), done.[K
-remote: Compressing objects:  10% (1/10)[Kremote: Compressing objects:  20% (2/10)[Kremote: Compressing objects:  30% (3/10)[Kremote: Compressing objects:  40% (4/10)[Kremote: Compressing objects:  50% (5/10)[Kremote: Compressing objects:  60% (6/10)[Kremote: Compressing objects:  70% (7/10)[Kremote: Compressing objects:  80% (8/10)[Kremote: Compressing objects:  90% (9/10)[Kremote: Compressing objects: 100% (10/10)[Kremote: Compressing objects: 100% (10/10), done.[K
-remote: Total 16 (delta 3), reused 2 (delta 0), pack-reused 0[K
-Unpacking objects:   6% (1/16)   Unpacking objects:  12% (2/16)   Unpacking objects:  18% (3/16)   Unpacking objects:  25% (4/16)   Unpacking objects:  31% (5/16)   Unpacking objects:  37% (6/16)   Unpacking objects:  43% (7/16)   Unpacking objects:  50% (8/16)   Unpacking objects:  56% (9/16)   Unpacking objects:  62% (10/16)   Unpacking objects:  68% (11/16)   Unpacking objects:  75% (12/16)   Unpacking objects:  81% (13/16)   Unpacking objects:  87% (14/16)   Unpacking objects:  93% (15/16)   Unpacking objects: 100% (16/16)   Unpacking objects: 100% (16/16), done.
-sulliv81@cf164-17:~/csci241$ ls
- build	        csci241    '~csci241lab1repo'   home		 settings.gradle   typescript
- build.gradle  '~csci241'   gradle	        lab-1-sulliv81	 src		   writeup.txt
-sulliv81@cf164-17:~/csci241$ cdlsgit clone https://github.com/csci241-20s/lab-1-sulliv81 ~/users/sodo_/csci241workingcopyhome/users/sodo_/csci241workingcopy [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcsci241workingcopy
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P/csci241workingcopy~/csci241workingcopy[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cradle run --args=241[K"241"it clone https://github.com/csci241-20s/lab-1-sulliv81 ~/csci241241repo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -a[K[Kgit clone https://github.com/csci241-20s/lab-1-sulliv81 ~/csci241[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config user.name[Kpush[Kcommit -m "lots of stuff"ls[Ktouch writeup.txtls[Kgit commit -m "lots of stuff"push[Kconfig user.namelone https://github.com/csci241-20s/lab-1-sulliv81 ~/csci241[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K -agit clone https://github.com/csci241-20s/lab-1-sulliv81 ~/241repocsci241[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[42Pradle run --args="241"[2P241it clone https://github.com/csci241-20s/lab-1-sulliv81 ~/csci241workingcopy[1P/csci241workingcopyhome/csci241workingcopyusers/sodo_/csci241workingcopy [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P~/users/sodo_/csci241workingcopy
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd[K[Kpwd
-/home/sulliv81/csci241
-sulliv81@cf164-17:~/csci241$ g[Kcw [K[Kd ~/ lab-1-sulliv81-master
-bash: cd: too many arguments
-sulliv81@cf164-17:~/csci241$ cd ~/ lab-1-sulliv81-master[1P lab-1-sulliv81-master[C[1Plab-1-sulliv81-master/lab-1-sulliv81-master
-bash: cd: /home/sulliv81/lab-1-sulliv81-master: No such file or directory
-sulliv81@cf164-17:~/csci241$ cd ~/lab-1-sulliv81-masteru/lab-1-sulliv81-master[1P/lab-1-sulliv81-master[C/lab-1-sulliv81-masteru/lab-1-sulliv81-masters/lab-1-sulliv81-mastere/lab-1-sulliv81-masterr/lab-1-sulliv81-master[1P/lab-1-sulliv81-master[1P/lab-1-sulliv81-master[1P/lab-1-sulliv81-master[1P/lab-1-sulliv81-masterU/lab-1-sulliv81-masters/lab-1-sulliv81-mastere/lab-1-sulliv81-masterr/lab-1-sulliv81-masters/lab-1-sulliv81-master[C/lab-1-sulliv81-masters/lab-1-sulliv81-mastero/lab-1-sulliv81-masterd/lab-1-sulliv81-mastero/lab-1-sulliv81-master_/lab-1-sulliv81-master
-bash: cd: /home/sulliv81/Users/sodo_/lab-1-sulliv81-master: No such file or directory
-sulliv81@cf164-17:~/csci241$ cd ~/Users/sodo_/lab-1-sulliv81-master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KC:\Users\sodo_\lab-1-sulliv81-master
-bash: cd: C:Userssodo_lab-1-sulliv81-master: No such file or directory
-sulliv81@cf164-17:~/csci241$ cd C:\Users\sodo_\lab-1-sulliv81-master[1P\lab-1-sulliv81-master_\lab-1-sulliv81-master/\lab-1-sulliv81-master[C[1Plab-1-sulliv81-master[1PUsers\sodo_/lab-1-sulliv81-master?Users\sodo_/lab-1-sulliv81-master[1PUsers\sodo_/lab-1-sulliv81-master/Users\sodo_/lab-1-sulliv81-master[C[C[C[C[C[1P\sodo_/lab-1-sulliv81-masters\sodo_/lab-1-sulliv81-master[C[1Psodo_/lab-1-sulliv81-master?sodo_/lab-1-sulliv81-master[1Psodo_/lab-1-sulliv81-master/sodo_/lab-1-sulliv81-master
-bash: cd: C:/Users/sodo_/lab-1-sulliv81-master: No such file or directory
-sulliv81@cf164-17:~/csci241$ cd C:/Users/sodo_/lab-1-sulliv81-master[C/Users/sodo_/lab-1-sulliv81-master
-bash: cd: C://Users/sodo_/lab-1-sulliv81-master: No such file or directory
-sulliv81@cf164-17:~/csci241$ pwd
-/home/sulliv81/csci241
-sulliv81@cf164-17:~/csci241$ pwd
-/home/sulliv81/csci241
-sulliv81@cf164-17:~/csci241$ cd ~\301repo
-bash: cd: ~301repo: No such file or directory
-sulliv81@cf164-17:~/csci241$ cd ~\301repo[1P301repo/301repo
-bash: cd: /home/sulliv81/301repo: No such file or directory
-sulliv81@cf164-17:~/csci241$ exit
-exit
-
-Script done on 2020-04-12 16:52:12-0700
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git log
+[?1h=[33mcommit 4b3f720a9f8a9d544aa8815feaf2af54e9ff8dc7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: f808f61 c548830[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 21:11:43 2020 -0700[m
+[m
+    Merge branch 'question3'[m
+[m
+[33mcommit c5488300e2ea6b80dbd36a727e0634ee7bb7cbe2[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 21:09:07 2020 -0700[m
+[m
+    alligned editing more[m
+[m
+[33mcommit 35e947294f4d2bd40fbf18eebba07ecd0cd0dcd9[m[33m ([m[1;31morigin/question3[m[33m)[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:56:17 2020 -0700[m
+[m
+    question 3 branching attempt[m
+[m
+[33mcommit f808f613e707ed29b81216c86c29f30d10843a05[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:52:50 2020 -0700[m
+[m
+    edited writeup.txt for part 1/2[m
+[m
+[33mcommit 5e63dfc8c1d2a084614acd383c0d4ef5a389f7ca[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:46:24 2020 -0700[m
+[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K    Added username.txt[m
+[m
+[33mcommit dd66a7ff73dc4689db0c6057c17634b77ca70ae5[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:41:03 2020 -0700[m
+[m
+    Added empty username[m
+[m
+[33mcommit 950098f3290157ee4cde4820813ee94507cf741a[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:39:44 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 847a9cd3df94761afb655eabd4aba18cef2ab345[m[m
+:[K[K:[K[KAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 19:45:10 2020 -0700[m
+[m
+    changed extra files to be deleted[m
+[m
+[33mcommit e93fb24df1a773d5eac2a603286757408cc428f1[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 19:11:43 2020 -0700[m
+[m
+    edited hello.java[m
+[m
+[33mcommit 79c753e6c12298f846fdfdecda0042040c81d194[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 19:00:08 2020 -0700[m
+[m
+    Unecessary file, deleted[m
+[m
+[33mcommit 541c5a4a5458ee0ee2fcb6b316ecf48f559d2ae5[m[m
+Merge: 7f4529f 8feb17d[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 18:53:30 2020 -0700[m
+[m
+    fixed merge issues[m
+[m
+[33mcommit 7f4529ff22d1eb4b4c2ebc0700b90714bcd5858a[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 18:13:57 2020 -0700[m
+[m
+    huh[m
+:[K[K[m
+[33mcommit 5bcb855f8f66fbde6a3d1a2ead85e2aa002c01e6[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 18:07:43 2020 -0700[m
+[m
+    Hello now prints command line arg[m
+[m
+[33mcommit 8feb17dd7bd578212adb2472f8e44c789728e2c3[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 17:41:10 2020 -0700[m
+[m
+    Update Hello.java[m
+[m
+[33mcommit 1e14bd09cc1c18b30adf62f5a15133123f47e4ce[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 17:37:16 2020 -0700[m
+[m
+    Update Hello.java[m
+[m
+[33mcommit 6611f2ba1da207ac852f495b45843175853ede03[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 17:34:11 2020 -0700[m
+[m
+    Update Hello.java[m
+[m
+[33mcommit 5691757b2d5cd30d1f617384a2a2eb0464831019[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 17:31:53 2020 -0700[m
+[m
+:[K[K    Update Hello.java[m
+:[K[K[H[2J[HM[m
+[HMDate:   Sun Apr 12 20:46:24 2020 -0700[m
+[HMAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+[HM[33mcommit 5e63dfc8c1d2a084614acd383c0d4ef5a389f7ca[m[m
+[HM[m
+[HM    edited writeup.txt for part 1/2[m
+[HM[m
+[HMDate: 
