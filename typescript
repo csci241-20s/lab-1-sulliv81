@@ -1,0 +1,305 @@
+Script started on 2020-04-12 21:18:27-0700
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ ls
+build.gradle  settings.gradle  src  typescript	username.txt  writeup.txt
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git config user.name
+Bo Sullivan
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git config user.email
+sulliv81@wwu.edu
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git checkout
+M	typescript
+Your branch is up to date with 'origin/master'.
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git log
+[?1h=[33mcommit 4b3f720a9f8a9d544aa8815feaf2af54e9ff8dc7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: f808f61 c548830[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 21:11:43 2020 -0700[m
+[m
+    Merge branch 'question3'[m
+[m
+[33mcommit c5488300e2ea6b80dbd36a727e0634ee7bb7cbe2[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 21:09:07 2020 -0700[m
+[m
+    alligned editing more[m
+[m
+[33mcommit 35e947294f4d2bd40fbf18eebba07ecd0cd0dcd9[m[33m ([m[1;31morigin/question3[m[33m)[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:56:17 2020 -0700[m
+[m
+    question 3 branching attempt[m
+[m
+[33mcommit f808f613e707ed29b81216c86c29f30d10843a05[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:52:50 2020 -0700[m
+[m
+    edited writeup.txt for part 1/2[m
+[m
+[33mcommit 5e63dfc8c1d2a084614acd383c0d4ef5a389f7ca[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:46:24 2020 -0700[m
+[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K    Added username.txt[m
+[m
+[33mcommit dd66a7ff73dc4689db0c6057c17634b77ca70ae5[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:41:03 2020 -0700[m
+[m
+    Added empty username[m
+[m
+[33mcommit 950098f3290157ee4cde4820813ee94507cf741a[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 20:39:44 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 847a9cd3df94761afb655eabd4aba18cef2ab345[m[m
+:[K[K:[K[KAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 19:45:10 2020 -0700[m
+[m
+    changed extra files to be deleted[m
+[m
+[33mcommit e93fb24df1a773d5eac2a603286757408cc428f1[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 19:11:43 2020 -0700[m
+[m
+    edited hello.java[m
+[m
+[33mcommit 79c753e6c12298f846fdfdecda0042040c81d194[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 19:00:08 2020 -0700[m
+[m
+    Unecessary file, deleted[m
+[m
+[33mcommit 541c5a4a5458ee0ee2fcb6b316ecf48f559d2ae5[m[m
+Merge: 7f4529f 8feb17d[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 18:53:30 2020 -0700[m
+[m
+    fixed merge issues[m
+[m
+[33mcommit 7f4529ff22d1eb4b4c2ebc0700b90714bcd5858a[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 18:13:57 2020 -0700[m
+[m
+    huh[m
+:[K[K[m
+[33mcommit 5bcb855f8f66fbde6a3d1a2ead85e2aa002c01e6[m[m
+Author: Bo Sullivan <sulliv81@wwu.edu>[m
+Date:   Sun Apr 12 18:07:43 2020 -0700[m
+[m
+    Hello now prints command line arg[m
+[m
+[33mcommit 8feb17dd7bd578212adb2472f8e44c789728e2c3[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 17:41:10 2020 -0700[m
+[m
+    Update Hello.java[m
+[m
+[33mcommit 1e14bd09cc1c18b30adf62f5a15133123f47e4ce[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 17:37:16 2020 -0700[m
+[m
+    Update Hello.java[m
+[m
+[33mcommit 6611f2ba1da207ac852f495b45843175853ede03[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 17:34:11 2020 -0700[m
+[m
+    Update Hello.java[m
+[m
+[33mcommit 5691757b2d5cd30d1f617384a2a2eb0464831019[m[m
+Author: sulliv81 <63215409+sulliv81@users.noreply.github.com>[m
+Date:   Sun Apr 12 17:31:53 2020 -0700[m
+[m
+:[K[K    Update Hello.java[m
+:[K[K[H[2J[HM[m
+[HMDate:   Sun Apr 12 20:46:24 2020 -0700[m
+[HMAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+[HM[33mcommit 5e63dfc8c1d2a084614acd383c0d4ef5a389f7ca[m[m
+[HM[m
+[HM    edited writeup.txt for part 1/2[m
+[HM[m
+[HMDate:   Sun Apr 12 20:52:50 2020 -0700[m
+[HMAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+[HM[33mcommit f808f613e707ed29b81216c86c29f30d10843a05[m[m
+[HM[m
+[HM    question 3 branching attempt[m
+[HM[m
+[HMDate:   Sun Apr 12 20:56:17 2020 -0700[m
+[HMAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+[HM[33mcommit 35e947294f4d2bd40fbf18eebba07ecd0cd0dcd9[m[33m ([m[1;31morigin/question3[m[33m)[m[m
+[HM[m
+[HM    alligned editing more[m
+[HM[m
+[HMDate:   Sun Apr 12 21:09:07 2020 -0700[m
+[HMAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+[HM[33mcommit c5488300e2ea6b80dbd36a727e0634ee7bb7cbe2[m[m
+[HM[m
+[HM    Merge branch 'question3'[m
+[HM[m
+[HMDate:   Sun Apr 12 21:11:43 2020 -0700[m
+[HMAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+[HMMerge: f808f61 c548830[m
+[HM[33mcommit 4b3f720a9f8a9d544aa8815feaf2af54e9ff8dc7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+[30;1H[K:[K[K:[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K    Added username.txt[m
+:[K[K[m
+:[K[K[33mcommit dd66a7ff73dc4689db0c6057c17634b77ca70ae5[m[m
+:[K[K:[K[KAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+:[K[KDate:   Sun Apr 12 20:41:03 2020 -0700[m
+:[K[K[m
+:[K[K    Added empty username[m
+:[K[K[m
+:[K[K[33mcommit 950098f3290157ee4cde4820813ee94507cf741a[m[m
+:[K[KAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+:[K[KDate:   Sun Apr 12 20:39:44 2020 -0700[m
+:[K[K[m
+:[K[K    Added empty writeup[m
+:[K[K-[Klog file: [Kee[K[K:[K[K[m
+:[K[K:[K[K[33mcommit 847a9cd3df94761afb655eabd4aba18cef2ab345[m[m
+:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K-[Klog file: [Kff[K[Kff[K[K:[K[KAuthor: Bo Sullivan <sulliv81@wwu.edu>[m
+:[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[KDate:   Sun Apr 12 19:45:10 2020 -0700[m
+:[K[K[m
+:[K[K    changed extra files to be deleted[m
+:[K[K [KESCESC[KESCESC[K:[K[K [KESCESC[K^J^J[K:[K[K [KESCESC[Kee[K:[K[K[7mFinishing logfile... (interrupt to abort)[27m[K[K[?1l>sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ 
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ :d[K[Kls
+build.gradle  f  settings.gradle  src  typescript  username.txt  writeup.txt
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ gradle build
+
+[1AStarting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [34ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [134ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [234ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [334ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [434ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [535ms][m[39D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [634ms][m[0K[38D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [734ms][m[38D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [834ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [934ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [1s][m[0K[35D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[1A[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [2s][m[33D[2B[2A[1m<[0;32;1m==[0;39;1m-----------> 21% EXECUTING [2s][m[34D[1B[1m> :jar[m[0K[6D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [3s][m[34D[1B[1m> :distTar[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [3s][m[34D[1B[1m> :distZip[m[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 12s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hsulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ gradle bui[K[K[Krun --args="231[K[K41"
+
+[1A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [60ms][m[39D[1B[1A[0K
+[1m> Task :run[m
+Hello, 241
+[0K
+[1A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [160ms][m[38D[1B[1A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 524ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hsulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git add src/main.java[K[K[K[K[K/java/lab1/Hellow[K.java
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git commit -m "Hellow now prints command line arg"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   .gradle/6.1/executionHistory/executionHistory.bin[m
+	[31mmodified:   .gradle/6.1/executionHistory/executionHistory.lock[m
+	[31mmodified:   .gradle/6.1/fileHashes/fileHashes.bin[m
+	[31mmodified:   .gradle/6.1/fileHashes/fileHashes.lock[m
+	[31mmodified:   .gradle/6.1/javaCompile/javaCompile.lock[m
+	[31mmodified:   .gradle/6.1/javaCompile/taskHistory.bin[m
+	[31mmodified:   .gradle/buildOutputCleanup/buildOutputCleanup.lock[m
+	[31mmodified:   .gradle/buildOutputCleanup/outputFiles.bin[m
+	[31mmodified:   typescript[m
+
+Untracked files:
+	[31mbuild/[m
+	[31mf[m
+
+no changes added to commit
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ g[Kgit push
+Username for 'https://github.com': sulliv81
+Password for 'https://sulliv81@github.com': 
+Everything up-to-date
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git add src/main/java/lab1/Hellow.ja[K[K[K[K.java
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git commit -m "hell[K[K[K[KHellow now prints command line arg"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   .gradle/6.1/executionHistory/executionHistory.bin[m
+	[31mmodified:   .gradle/6.1/executionHistory/executionHistory.lock[m
+	[31mmodified:   .gradle/6.1/fileHashes/fileHashes.bin[m
+	[31mmodified:   .gradle/6.1/fileHashes/fileHashes.lock[m
+	[31mmodified:   .gradle/6.1/javaCompile/javaCompile.lock[m
+	[31mmodified:   .gradle/6.1/javaCompile/taskHistory.bin[m
+	[31mmodified:   .gradle/buildOutputCleanup/buildOutputCleanup.lock[m
+	[31mmodified:   .gradle/buildOutputCleanup/outputFiles.bin[m
+	[31mmodified:   typescript[m
+
+Untracked files:
+	[31mbuild/[m
+	[31mf[m
+
+no changes added to commit
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git add typescript
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git commit -m "commiting typscript"
+[master a805d90] commiting typscript
+ 1 file changed, 182 insertions(+), 90 deletions(-)
+ rewrite typescript (99%)
+sulliv81@cf405-22:~/csci241/csci241helper/lab-1-sulliv81$ git push
+Username for 'https://github.com': sulliv81
+Password for 'https://sulliv81@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 2.24 KiB | 764.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 
